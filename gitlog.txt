@@ -1,0 +1,20 @@
+099f3f0 Merge pull request #1 from emilycookbacon/feature-emilycookbacon
+bb21a81 create an empty file
+6974e0d Merge branch 'main' into features
+31568b6 Merge branch 'main' into features
+291e75d Trying to make a merge conflict
+035d657 Fixed new_feature on features branch
+014b444 Fixing features branch
+8c013fc fixing new_feature.txt
+d4cfbea Merge branch 'features'
+ec5be79 Update file_1.txt
+45bd192 change new_features file
+6af54a1 Add empty file
+b7fcecd Changed gitignore
+ab5688a Readme file
+353fb1b Changed file 1 name
+c0141a5 modify file 2
+3330ce0 modify file 1
+d08c2e3 create new files
+468727b Practice changes
+4ac0e78 First Commit

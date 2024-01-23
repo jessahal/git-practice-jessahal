@@ -1,0 +1,93 @@
+    1  git -- version
+    2  git --version
+    3  git config --global user.name "Jessa Halversen"
+    4  git config --list
+    5  git config --global user.email "jessalethbridge@gmail.com"
+    6  git config --global core.editor "code --wait"
+    7  git config --global init.defaultBranch main
+    8  git config --list
+   16  mkdir git-practice-esnt
+   18  cd git-practice-esnt
+   20  git init
+   23  git status
+   24  git add file1.txt
+   25  git status
+   26  git commit -m "First Commit"
+   27  git status
+   28  git log
+   32  git.wd
+   65  cd git-practice-esnt
+   66  git remote add origin git@github.com:jessahal/git-practice-jessahal.git
+   67  git push -u origin main
+   68  git status
+   69  git status
+   70  git push
+   76  cd git-practice-jessahal/
+   79  git status
+   80  git add .
+   81  git status
+   82  git commit -m "create new files"
+   83  git status
+   84  git log
+   85  git push
+   86  git status
+   87  git add .
+   88  git status
+   89  git restore --staged file_2.txt
+   90  git status
+   91  git commit -m "modify file 1"
+   92  git add file_2.txt
+   93  git commit -m "modify file 2"
+   94  git mv file1.txt file_1.txt
+   95  git status
+   96  git commit -m "Changed file 1 name"
+   97   git log
+  100  git status
+  101  touch .gitignore
+  106  cd git-practice-jessahal/
+  107  git status
+  110  git status
+  111  git status
+  112  git branch features
+  113  git switch features
+  114  git log
+  116  git add new_features.txt
+  117  git commit . -m "Add empty file"
+  118  git switch main
+  120  git merge features
+  121  git merge features
+  122  git log
+  123  git mv new_features new_feature
+  128  cd git-practice-jessahal/
+  129  git mv new_features.txt new_feature.txt
+  131  git switch features
+  132  git mv new_features.txt new_feature.txt
+  133  git merge features
+  134  git merge features
+  135  git merge main
+  139  cd git-practice-jessahal/
+  140  git switch main
+  141  git branch -d features
+  142  git merge features
+  143  git status
+  144  git add . 
+  145  git status
+  146  git push
+  147  git branch -d features
+  154  git clone git@github.com:jessahal/git-practice-emilycookbacon.git
+  155  git branch feature-jessahal
+  156  cd git-practice-emilycookbacon/
+  157  git branch feature-jessahal
+  158  git switch feature-jessahal 
+  160  git rm jessa-file
+  166  git add .
+  167  git status
+  168  git commit
+  169  git status
+  170  git commit -m "add file to emily's repo"
+  171  git status
+  172  git push origin feature-jessahal
+  177  cd git-practice-jessahal/
+  178  git pull
+  180  git log --oneline > gitlog.txt
+  181  history | grep git > history.txt
